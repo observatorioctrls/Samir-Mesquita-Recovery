@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    max-height: 100vh;
+    font-family: "Bebas Neue";
+    letter-spacing: .4rem;
+    line-height: 2rem;
+}
+header {
+    position: relative;
+    margin-top: 2rem;
+    height: 5rem;
+    width: 100%;
+}
+img {
+    position: absolute;
+    width: 10%;
+    left: 45%;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 2rem;
+    text-align: center;
+    text-wrap: nowrap;
+}
+video {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    object-fit: fill;
+}
+h1 {
+    font-size: 4rem;
+    margin-top: 2rem;
+}
+
+h2 {
+    margin: 5rem auto 2rem auto;
+    font-size: 2rem;
+}
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: 2px solid black;
+    border-radius: 2rem;
+    background-color: rgb(233, 233, 233);
+    width: 15rem;
+    padding: .5rem;
+    margin: .5rem auto;
+    font-family: "Bebas Neue";
+    font-size: 2rem;
+    text-wrap: nowrap;
+    filter: drop-shadow( 0 0 3px black);
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: rgba(0, 0, 0, 0.137);
+}
+h3 {
+    text-align: center;
+    text-wrap: nowrap;
+    font-size: 1.5rem;
+}
